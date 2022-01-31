@@ -1,0 +1,38 @@
+.header {
+  background-color: #f5d6d6;
+  padding: 30px;
+  text-align: center;
+  margin-top: auto;
+    
+}
+
+.datosEntrada {
+  text-align: center;
+  width: auto;
+  padding: 10px 10px;
+  margin: 5px 0;
+  box-sizing:content-box  ;
+  border: 1px solid rgb(14, 12, 12);
+}
+
+.cuadros:focus {
+  background-color: rgb(180, 70, 180);
+}
+
+.button {
+  background-color: #e987f1;
+  color: rgb(5, 5, 5);
+  padding: 10px 15px;
+  margin: 10px 10px;
+  cursor:pointer ;
+}
+
+.button2 {
+  background-color: #3d3a3a;
+  padding: 0px 0px;
+  margin: 1px 1px;
+  color: rgb(255, 255, 255);
+  width: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
