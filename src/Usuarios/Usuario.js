@@ -1,14 +1,12 @@
 function Usuario (props){
     return(
-        <div>
-            <li>
-                {props.itemUsuaio.id}
-                {props.itemUsuaio.username}
-                {props.itemUsuaio.password}
-                {props.itemUsuaio.status}
-            </li>
+        <tr>
             
-        </div>
+            <ul>{props.itemUsuaio.id}</ul>
+            <ul>{props.itemUsuaio.username}</ul>
+            <ul>{props.itemUsuaio.password}</ul>
+            <ul>{props.itemUsuaio.status}</ul>
+        </tr>
     );
 }
 

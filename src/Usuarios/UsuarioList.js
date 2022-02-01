@@ -1,8 +1,15 @@
 function UsuarioList (props){
     return(
-        <div>
-            {props.children}
-        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>nombre</th>
+                    <th>Contraseña</th>
+                    <th>estado</th>
+                </tr>
+            </thead>
+        </table>
         
     );
 }
